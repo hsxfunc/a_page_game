@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Page Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="header">
+            <h1>A Page Game</h1>
+        </div>
+        <div id="content">
+            <div id="resource-panel">
+                <div class="resource" id="wood">
+                    木材: <span id="wood-count">0</span>
+                </div>
+                <div class="resource" id="food">
+                    食物: <span id="food-count">0</span>
+                </div>
+            </div>
+            <div id="message-panel">
+                <p>你在一个寒冷的房间中醒来...</p>
+            </div>
+            <div id="action-panel">
+                <button id="gather-wood">收集木材</button>
+                <button id="hunt">狩猎</button>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
